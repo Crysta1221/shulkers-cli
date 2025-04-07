@@ -1,0 +1,33 @@
+{
+  "name": "shulkers",
+  "version": "0.1.0",
+  "description": "A lightweight and powerful plugin manager for Minecraft",
+  "license": "MIT",
+  "author": "Crysta1221",
+  "module": "index.ts",
+  "type": "module",
+  "bin": {
+    "shulkers": "./index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/cli-progress": "^3.11.6"
+  },
+  "peerDependencies": {
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "@clack/prompts": "^0.10.0",
+    "@inquirer/prompts": "^7.4.1",
+    "cli-progress": "^3.12.0",
+    "cli-spinners": "^3.2.0",
+    "cloudscraper": "^4.6.0",
+    "commander": "^13.1.0",
+    "console-table-printer": "^2.12.1",
+    "fuse.js": "^7.1.0",
+    "ora": "^8.2.0",
+    "picocolors": "^1.1.1",
+    "spiget-api": "^1.0.3",
+    "typerinth": "^1.1.0"
+  }
+}
